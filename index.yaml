@@ -1,0 +1,24 @@
+apiVersion: v1
+entries:
+  flux:
+  - apiVersion: v1
+    appVersion: 1.19.0
+    created: "2020-04-07T00:03:33.147134-06:00"
+    description: Flux is a tool that automatically ensures that the state of a cluster
+      matches what is specified in version control
+    digest: c05ff58e1ae6e0593d154fc7279e13709de2cb00c6e6012aa16ce687e5788cce
+    home: https://fluxcd.io
+    icon: https://raw.githubusercontent.com/fluxcd/flux/master/docs/_files/weave-flux.png
+    keywords:
+    - gitops
+    kubeVersion: '>=1.9.0-0'
+    maintainers:
+    - email: stefan@weave.works
+      name: stefanprodan
+    name: flux
+    sources:
+    - https://github.com/fluxcd/flux
+    urls:
+    - flux-1.3.0.tgz
+    version: 1.3.0
+generated: "2020-04-07T00:03:33.144013-06:00"
